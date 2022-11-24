@@ -1,75 +1,86 @@
 @charset "UTF-8";
 
 body{
-    background-color: #f1f1f1;
+    margin: 0;
+    background-color: #f4f0e5;
+    font-family:Tahoma;
+}
+
+
+nav{
+    
+    padding:10px ;
+    
+    
+}
+
+nav a {
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(19, 19, 19);
+}
+
+.logo{
+    width: 200px;
 }
 
 div{
+    margin: 10px auto;
     text-align: center;
-    color: #606062;
-    width: 600px;
-    margin: 30px auto;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-   
-   
+    font-family: Tahoma;
+    width: 750px;
 }
 
-img{
-    width: 190px;
+.texto-laranja{
+   color: #de8e37;
 }
 
-h1{
+.negrito{
     font-weight: bold;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border: solid 5px #606062;
-    font-size: 24px;
-    padding: 10px 0px;
-   
 }
 
-h2{
-    font-size: 20px;
-    font-family: verdana;
-    margin-top: 35px;
-    margin-bottom: 35px;
-}
-
-h3{
-    font-weight: normal;
-    font-family:  Verdana;
-    padding: 10px 0;
+.borda{
+    font-size: 28px;
+    padding-top: 30px;
     margin-top: 30px;
-    border-top: 2px solid #606062;
-    border-bottom: 2px solid #606062;
+    margin-bottom: 0;
+    border-top: 1px solid #de8e37;
+}
+
+.bkg{
+    color: white;
+    background-color: #de8e37;
+    padding: 15px 0px 15px 0px;
+    text-align: center;
+   
+    
+}
+
+div img{
+    width: 750px;
+    text-align: center;
+}
+
+.s2{
+    width: 400px;
 }
 
 span{
-    color: #49494a;
     font-weight: bold;
+    color: rgb(22, 22, 22);
+}
+
+h4{
+    font-weight: normal;
+    text-align: 
+    center;
+    font-size: 1.3em;
 }
 
 p{
-    line-height: 32px;
+    width: 500px;
+    margin: auto;
+    line-height: 30px;
+    text-align: center;
     
-    margin: 40px 0px 80px 0px;
-    font-size: 18px;
-    text-align: justify;
-}
-
-a{
-    
-    margin: 40px 0px 40px 0px;
-    text-decoration: none;
-    background-color: #25D366;
-    padding: 20px 25px;
-    font-weight: bold;
-    color: white;
-    border-radius: 30px;
-}
-
-footer{
-    text-align: right;
-    margin: 10px;
-    padding: 10px;
-    color: #f1f1f1;
 }
