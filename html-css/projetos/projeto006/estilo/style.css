@@ -82,6 +82,8 @@ span{
     color:#ffffff;
     font-size: 22px;
     line-height: 42px;
+    width: 700px;
+    text-align: center;
 }
 
 .secao-quatro span, .secao-seis span{
@@ -102,6 +104,12 @@ h2{
     font-weight: normal;
     color: #1c81c0;
     margin-top: 0;
+}
+
+h3 {
+    color: #ffffff;
+    font-size: 28px;
+    line-height: 42px;
 }
 
 .secao-seis,.secao-quatro{
