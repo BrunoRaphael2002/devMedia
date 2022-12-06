@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Fredoka', sans-serif;
 }
 .secao-topo{
@@ -58,8 +59,8 @@ h1,h2,h3{
 }
 
 .img-conteudo{
-    width: 250px;
-    height: 180px;
+   max-width: 250px;
+    display: inline;
     width: 100%;
     
    
