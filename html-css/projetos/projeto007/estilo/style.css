@@ -4,6 +4,12 @@
     box-sizing: border-box;
     font-family: 'Fredoka', sans-serif;
 }
+
+div{
+    
+    min-width: 400px;
+}
+
 .secao-topo{
     border-bottom: solid 1px #d5d5d5;
    
