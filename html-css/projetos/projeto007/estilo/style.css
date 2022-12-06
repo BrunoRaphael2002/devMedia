@@ -60,6 +60,7 @@ h1,h2,h3{
 .img-conteudo{
     width: 250px;
     height: 180px;
+    width: 100%;
     
    
 }
@@ -97,8 +98,8 @@ h1,h2,h3{
 .fixed img{
     display: block;
     max-width: 50px;
-        max-height: 50px;
         margin: 20px;
+        width: 100%;
     
     
 }
