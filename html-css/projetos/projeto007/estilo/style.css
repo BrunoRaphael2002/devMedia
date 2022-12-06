@@ -59,7 +59,7 @@ h1,h2,h3{
 }
 
 .img-conteudo{
-   max-width: 250px;
+   min-width: 250px;
     display: inline;
     width: 100%;
     
