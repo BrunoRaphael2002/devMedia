@@ -27,6 +27,7 @@
     margin: 0 auto;
    display: flex;
    align-items: center;
+   gap: 20px;
    padding: 10px 20px;
    
 }
@@ -43,10 +44,16 @@
     
 }
 
+.box-menu{
+    margin: 0 auto;
+}
+
 .topo .menu{
    display: flex;
    align-items: center;
    height: 100%;
+   gap: 10px;
+  
     
     
     
@@ -75,17 +82,73 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 50px;
     
     
     
 }
 
-.conteudo-banner{
-    
+ .conteudo-banner{
+     color: var(--cor01);
+    padding: 10px;
+    height: 100%;    
 }
+
+.conteudo-banner h1{
+     margin: 20px;
+}
+
+.conteudo-banner p{
+    margin: 20px 0;
+}
+
+
 
 .img-banner{
     width: 50%;
+    margin: 10px;
 }
+
+/* Banner finalizado */
+.anuncio-01{
+    background: var(--cor05);
+    color: var(--cor01);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    padding: 25px;
+    
+}
+
+.anuncio-01 .conteudo-anuncio-01  {
+    margin: 0 auto;
+  
+}
+
+.anuncio-01 .conteudo-anuncio-01 h3{
+    margin: 10px 0;
+}
+
+.anuncio-01 .botao-anuncio{
+    background: var(--cor06);
+    padding: 10px 30px;
+    margin: 0 auto;
+}
+
+.anuncio-01 .botao-anuncio a{
+    color: var(--cor01);
+    font-weight: 600;
+}
+
+.anuncio-01 .botao-anuncio a::before{
+    content: "";
+    padding: 20px;
+    width: 20px;
+    height: 20px;
+    background-image: url('../assets/icone-foguete.png');
+    background: no-repeat cover;
+}
+
 
 
