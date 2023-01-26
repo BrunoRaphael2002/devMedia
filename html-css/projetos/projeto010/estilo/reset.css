@@ -2,10 +2,14 @@
     margin: 0 ;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins';
+    border: 1px solid salmon;
+    
 }
 
 a{
     text-decoration: none;
+    
 }
 
 ul{
@@ -21,6 +25,7 @@ th,td{
     padding: 5px;
 }
 
- img{
-    width: 90px;
+img{
+    width: 100%;
+    
 }
