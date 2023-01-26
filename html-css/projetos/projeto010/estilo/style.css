@@ -118,6 +118,7 @@
     justify-content: space-between;
     height: 100%;
     padding: 25px;
+    gap: 30px;
     
 }
 
@@ -141,14 +142,171 @@
     font-weight: 600;
 }
 
-.anuncio-01 .botao-anuncio a::before{
+.anuncio-01 .botao-anuncio::before{
     content: "";
     padding: 20px;
-    width: 20px;
-    height: 20px;
+
     background-image: url('../assets/icone-foguete.png');
-    background: no-repeat cover;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+/* Anuncio 01 finalizado*/
+
+.box-principal{
+    padding: 50px;
+}
+
+.box-principal h3{
+    text-align: center;
+    padding: 20px;
+    margin: 30px;
+    
+}
+
+.informacoes{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: row;
+   height:100%;
+  
 }
 
 
+
+.informacoes .box-info h3 {
+    text-align: center;
+    margin: 30px;
+}
+
+.informacoes .box-info p {
+    text-align: center;
+    margin: 30px;
+}
+
+.informacoes .box-img-info{
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* informações*/
+
+.secao-tabela{
+    padding: 100px;
+    text-align: center;
+    font-weight: 600;
+    margin: 0 auto;
+}
+
+
+.titulo-tabela {
+    margin: 30px;
+    padding: 30px;
+}
+
+
+
+table {
+    width: 100%;
+    margin: 25px 0;
+    background: var(--cor01);
+    margin: 0 auto;
+    height: 100%;
+    
+    
+}
+
+thead {
+    background:var(--cor01);
+   
+}
+
+thead p{
+    font-weight: normal;
+}
+
+
+
+thead img{
+    width: 30%;
+    margin: 20px;
+}
+
+th,td {
+    padding: 20px 30px;
+    color: var(--cor05);
+}
+
+tbody tr:nth-of-type(odd) {
+    background:var(--cor03);
+}
+
+tbody tr:nth-of-type(even) {
+    background: var(--cor01);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.anuncio-02{
+    background: var(--cor06);
+    color: var(--cor01);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    padding: 25px;
+    gap: 30px;
+    
+}
+
+
+.anuncio-02 .conteudo-anuncio-02 h3{
+    margin: 0 auto;
+    padding: 20px;
+    
+   
+    
+}
+
+.anuncio-02 .botao-anuncio{
+    background: var(--cor05);
+    padding: 10px 30px;
+    margin: 0 auto;
+}
+
+.anuncio-02 .botao-anuncio a{
+    color: var(--cor01);
+    font-weight: 600;
+}
+
+.anuncio-02 .botao-anuncio::before{
+    content: "";
+    padding: 20px;
+
+    background-image: url('../assets/icone-foguete.png');
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+/* Anuncio 02 finalizado*/
 

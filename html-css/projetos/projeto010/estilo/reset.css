@@ -7,6 +7,23 @@
     
 }
 
+:root{
+    /*Home - Tabela de preços*/
+   --cor01:#fff;
+   --cor02:#f1f3f7;
+   --cor03:#f6f6f6;
+   --cor04:#a89f9f;
+   --cor05:#233032;
+   --cor06:#2f86d6;
+   /*Tabela de preços*/
+   --cor07:rgba(47, 134, 214, 1);
+   
+}
+
+span{
+    color: var(--cor06);
+}
+
 a{
     text-decoration: none;
     
