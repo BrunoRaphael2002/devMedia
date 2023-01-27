@@ -1,0 +1,176 @@
+:root{
+    /*Home - Tabela de preços*/
+   --cor01:#fff;
+   --cor02:#f1f3f7;
+   --cor03:#f6f6f6;
+   --cor04:#a89f9f;
+   --cor05:#233032;
+   --cor06:#2f86d6;
+   /*Tabela de preços*/
+   --cor07:rgba(47, 134, 214, 1);
+   --cor08:rgb(0, 0, 0);
+   
+}
+
+/* topo pagina 02 finalizado*/
+.topo-pagina02{
+    background: var(--cor06);
+    color: #233032;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px ;
+}
+
+
+.topo-pagina02 .menu02{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 10px;
+   
+       
+    
+ }
+
+
+
+
+.box-img .titulo-header02 p{
+    font-weight: 600;
+    padding: 2px; 
+    color: var(--cor01);
+    
+}
+
+.box-img .titulo-header02 h1{
+    font-weight: bold;
+    padding: 2px; 
+    color: var(--cor08);
+    
+}
+
+
+.topo-pagina02 nav li a {
+    font-weight: 600;
+    color: var(--cor01);
+    padding: 10px 20px;
+    transition: 0.2s;
+    
+}
+
+.topo-pagina02 nav li a:hover{
+    color: var(--cor01);
+    background: var(--cor05);
+    border-radius: 50px;
+    padding: 5px;
+}
+ 
+
+.box-img{
+    padding: 10px;
+    max-width: 1440px;
+    margin: 0 auto;
+   display: flex;
+   align-items: center;
+   gap: 20px;
+   padding: 10px 20px;
+   
+}
+
+
+.box-img .logo{
+    width: 90px;
+    
+}
+
+.box-menu{
+    margin: 0 auto;
+}
+/* topo pagina 02 finalizado*/
+
+table {
+    width: 90%;
+    margin: 25px 0;
+    background: var(--cor01);
+    margin: 0 auto;
+    height: 100%;
+   
+   
+    
+}
+
+thead {
+    background:var(--cor0);
+   
+}
+
+th p{
+    font-weight: normal
+}
+
+th,td {
+    padding: 20px 30px;
+    color: var(--cor05);
+    border: 2px solid var(--cor01);
+}
+
+td{
+    cursor: pointer;
+    
+}
+
+td:hover{
+    background: var(--cor06);
+   
+}
+
+
+
+.background{
+    background: var(--cor03);
+}
+
+
+
+/*inicio rodape*/
+
+footer{
+    margin: 0 auto;
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+    height: 100%;
+    padding: 20px;
+    gap: 10px;
+}
+
+.logo-footer{
+    margin: 50px;
+}
+
+.info-footer{
+   text-align: center;
+   
+}
+
+.info-footer p{
+    margin: 10px;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.aluno-devMedia{
+    border-top: 1px solid var(--cor04);
+    background: var(--cor01);
+    color: var(--cor05);
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+    width: 100%;
+}
+
+.aluno{
+    color: var(--cor06);
+}

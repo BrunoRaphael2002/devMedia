@@ -17,11 +17,12 @@
 
     <header class="topo">
     <figure class="box-img" >
-        <img class="logo" src="assets/logo-icone.png" alt="logo">
-
-        <div class="titulo-header">
-            <h1>AlfaTech</h1>
-            <p>Soluções em hospedagem</p>
+        <a href="index.html">
+            <img class="logo" src="assets/logo-icone.png" alt="logo">
+            <div class="titulo-header">
+                <h1>AlfaTech</h1>
+                <p>Soluções em hospedagem</p>
+        </a>
         </div>
     
 
@@ -30,10 +31,10 @@
    
     <nav class="box-menu">
         <ul class="menu">
-            <li><a href="tabeladepreços.html">INFORMAÇÕES</a></li>
-            <li><a href="">PLANOS</a></li>
-            <li><a href="">PREÇOS</a></li>
-            <li><a href="">CONTATO</a></li>
+            <li><a href="#informacao">INFORMAÇÕES</a></li>
+            <li><a href="#planos">PLANOS</a></li>
+            <li><a href="tabeladepreços.html">PREÇOS</a></li>
+            <li><a href="#contato">CONTATO</a></li>
         </ul>
     </nav>
     </header>
@@ -58,7 +59,7 @@
                 <p>Também temos planos gratuitos. Adquira já o seu.</p>
             </div>
             <button class="botao-anuncio" >
-                <a  href="">TABELA DE PREÇOS</a>
+                <a  href="tabeladepreços.html">TABELA DE PREÇOS</a>
             </button>
         </div>
 
@@ -71,7 +72,7 @@
                     <h3>Existem diversos serviços de hospedagem de sites. Porque você deve <span>nos escolher?</span></h3>
                
                 
-                <section class="informacoes">
+                <section id="informacao" class="informacoes">
                 <div class="box-info">
                     <figure class="box-img-info">
                         <img src="assets/icone-engrenagens.png" alt="icone-engrenagens">
@@ -97,8 +98,8 @@
                     <p>Suporte altamente treinado e especializado em soluções de Cloud...</p>
                 
                 </div>
-                
-                        </section>
+                </section>
+                        
             </section>
 
         <section class="secao-tabela">
@@ -108,7 +109,7 @@
                 
             </div>
 
-            <table >
+            <table id="planos" >
                 <thead>
                     <tr>
                         <th>PESSOAL
@@ -203,7 +204,7 @@
             </div>
 
                <button class="botao-anuncio">
-                <a href="">  TABELA DE PREÇOS</a>
+                <a href="tabeladepreços.html">  TABELA DE PREÇOS</a>
                </button>
 
                
@@ -215,20 +216,33 @@
 
 
 
-    <footer>
-        <div>
-            <figure class="box-img">
-                <img class="logo" src="assets/logo-icone.png" alt="logo">
-               </figure>
+    <footer id="contato">
+       
+            <div class="logo-footer">
+                <figure class="box-img">
+                    <a href="index.html"><img class="logo" src="assets/logo-icone.png" alt="logo"></a>
+                    <div class="texto-footer">
+                        <h1>AlfaTech</h1>
+                         <p> Soluções em hospedagem </p>
+                    </div>
+                   </figure>
+            </div>
 
-            <h1>AlfaTech</h1>
-            <p> Soluções em hospedagem </p>
+        <div class="info-footer">
+            
             <p> Telefone & Whatsapp: (21) 99999-5555 </p>
                 <p> E-mail: suporte@alfatech.com </p>
                 <p> Endereço: Av Ayrton Senna, 3000 - Barra da Tijuca - Rio de Janeiro </p>
                 <p> © AlfaTech - Soluções em hospedagem - Todos os direitos reservados </p>
-                <p> Desenvolvido por "nome do aluno" </p>
+               
         </div>
+
     </footer>
+
+    
+    <div class="aluno-devMedia">
+        <p> Desenvolvido por <span class="aluno">Bruno Raphael Medeiros da Silva [Aluno Dev Media]</span> </p>
+    </div>
+
 </body>
 </html>
