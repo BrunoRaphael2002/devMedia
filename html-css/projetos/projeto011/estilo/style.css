@@ -45,14 +45,11 @@ main{
 
 /* Início CSS Topo */
 
-.topo{
-  background-color: var(--cor02);
+.topo {
+  background-color: #00cad1;
   width: 100%;
-  position: fixed;
-  top: 0;
 }
-
-.topo .container{
+.topo .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -62,24 +59,35 @@ main{
   margin: 0 auto;
 }
 
-.topo-logo{
+.topo-titulo {
+  font-weight: 600;
+  font-size: 28px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.topo-titulo a {
+  display: flex;
+}
+
+.topo-logo {
   height: 60px;
 }
 
 .topo-links{
   display: flex;
-  align-items:center ;
 }
 
 .topo-links a {
-  font-weight: 600;
-  color: var(--cor01);
   padding: 10px;
- 
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
 }
 
 .topo-links a:hover {
-  color:var(--cor04);
+  color: #004b4c;
 }
 
 @media (max-width: 425px) {
