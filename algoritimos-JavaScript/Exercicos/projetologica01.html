@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto de logica com Js</title>
+</head>
+<body>
+    <h1>Logica com Js</h1>
+
+    <script>
+                //Calculadora simples//
+                
+        //usuario informa um valor
+       var valor = prompt('Informe o valor: ');
+       var porcentagem = prompt('Informe a porcentagem:');
+       valor = parseFloat (valor);
+       porcentagem = parseFloat (porcentagem);
+       var desconto = (porcentagem / 100) * valor;
+       var resultado = (valor - desconto) ;
+       var juros = (valor + desconto);
+       alert(valor + ' com ' + porcentagem + '% de desconto é igual a: ' + resultado);
+       alert(valor + ' com ' + porcentagem + '% de Juros é igual a: ' + juros);
+    </script>
+</body>
+</html>
