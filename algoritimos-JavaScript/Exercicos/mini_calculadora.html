@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini calculadora</title>
+</head>
+<body>
+    <h1>Estudando JavaScript</h1>
+    <p>Estrutura if else</p>
+
+     programa
+ {
+  funcao inicio()
+  {
+    //Declaração das variáveis
+    real numero1
+    real numero2
+    caracter operacao
+
+    
+
+    escreva("\nEscolha a operação que deseja efetuar:\n\n")
+
+    escreva("+ - Soma\n")
+    escreva("- - Subtração\n")
+    escreva("* - Multiplicação\n")
+    escreva("/ - Divisão\n\n")
+
+    leia(operacao)
+
+    //Execução da operação e impressão do resultado
+    escreva("\nVocê escolheu a operação: "+operacao+"\n")
+    escreva("\nResultado: "+numero1+" "+operacao+" "+numero2+" = ")
+
+    se(operacao=='+')
+     {
+       escreva(numero1 + numero2)
+     }
+    se(operacao=='-')
+     {
+       escreva(numero1 - numero2)
+     }
+     se(operacao=='*')
+     {
+       escreva(numero1 * numero2)
+      }
+     se(operacao=='/')
+     {
+       escreva(numero1 / numero2)
+     }
+   }
+}
+
+    <script>
+       var numero1 = prompt("Digite o primeiro número: ");
+       numero1 = parseFloat(numero1);
+       var numero2 = prompt("Digite o segundo número: ");
+       numero2 = parseFloat(numero2);
+       alert("Escolha a operação que deseja efetuar:");
+        alert("+ - Soma");
+        alert("- - Subtração");
+        alert("* - Multiplicação");
+        alert("/ - Divisão");
+        var operacao = prompt("Digite a Operação");
+        if(operacao=='+');
+        
+     
+       alert(numero1 + numero2);
+     
+    if(operacao=='-');
+     
+       alert(numero1 - numero2);
+     
+     if(operacao=='*');
+     
+       alert(numero1 * numero2);
+      
+     if(operacao=='/');
+     
+       alert(numero1 / numero2);
+     
+   
+
+    </script>
+</body>
+</html>
