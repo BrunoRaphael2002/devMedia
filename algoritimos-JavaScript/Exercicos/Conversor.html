@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aplicação que converte quilômetros para milhas (e Celsius para Fahrenheit)</title>
+</head>
+<body>
+    <script>
+       var n = prompt("Calculadora de conversões: Escolha uma opção:1 - Celsius para Fahrenheit 2-Quilômetros para Milhas 3- Sair");
+       n = parseInt (n);
+
+       var c = parseFloat (c);
+       var f = parseFloat (f);
+       var km = parseFloat (km);
+       var milhas = parseFloat (milhas);
+
+    switch(n){
+       case 1:
+           var  c = prompt('Informe o valor que deseja converter');
+
+            f = (c * 1.8) + 32;
+
+           alert(c+"°C equivale a :" + f + "°F");
+            break;
+        case 2:
+            var km = prompt('Informe o valor que deseja converter');
+           
+            milhas = (km / 1.609 );
+        alert(km+"Km equivale a :" + milhas + " Milhas");
+            break;
+        case 3:
+            alert('Programa Finalizado');
+            break;
+        default:
+            ('Por favor digite um numero');
+        
+        }
+
+       
+        
+       
+
+    </script>
+</body>
+</html>
