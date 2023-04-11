@@ -15,29 +15,37 @@
        var f = parseFloat (f);
        var km = parseFloat (km);
        var milhas = parseFloat (milhas);
-
-    switch(n){
-       case 1:
-           var  c = prompt('Informe o valor que deseja converter');
-
-            f = (c * 1.8) + 32;
-
-           alert(c+"°C equivale a :" + f + "°F");
-            break;
-        case 2:
-            var km = prompt('Informe o valor que deseja converter');
-           
-            milhas = (km / 1.609 );
-        alert(km+"Km equivale a :" + milhas + " Milhas");
-            break;
-        case 3:
-            alert('Programa Finalizado');
-            break;
-        default:
-            ('Por favor digite um numero');
+    
+        while( n !== 3 ){
+        switch(n){
+           case 1:
+               var  c = prompt('Informe o valor que deseja converter');
+                f = (c * 1.8) + 32;
+               alert(c+"°C equivale a :" + f + "°F");
+                break;
+            case 2:
+                var km = prompt('Informe o valor que deseja converter');
         
-        }
+                milhas = (km / 1.609 );
+            alert(km+"Km equivale a :" + milhas + " Milhas");
+                break;
+            default:
+            alert('Opção inválida. Por favor, escolha uma das opções: 1 - Celsius para Fahrenheit, 2 - Quilômetros para Milhas, 3 - Sair');
 
+               
+            }
+            var n = prompt("Calculadora de conversões: Escolha uma opção:1 - Celsius para Fahrenheit 2-Quilômetros para Milhas 3- Sair");
+            n = parseInt (n);
+
+            
+        }
+        alert('Programa Finalizado');
+
+        
+           
+        
+
+        
        
         
        
