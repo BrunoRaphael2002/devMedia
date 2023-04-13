@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+    body{
+        background-image: linear-gradient(95deg, rgb(32, 73, 109),rgb(61, 108, 183), rgb(86, 126, 193));
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    a{
+        text-decoration: none;
+        color: normal;
+    }
+
+    ul{
+        list-style: none;
+    }
+
+    .conteudo{
+        background-color: rgb(225, 231, 246);
+        width: 95vw;
+        height: 90vh;
+        margin: 30px auto;
+        border: 2px solid black ;
+        border-radius: 25px;
+     
+       
+       
+    }
+
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .logo{
+        padding: 5px;
+    }
+    nav ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px;
+        gap: 20px;
+        margin: 0 auto;
+        height: 100%;
+    }
+
+    nav ul li a {
+        text-align: center;
+        color:rgb(36, 36, 100);
+        font-size: 13px;
+        text-transform: uppercase;
+        font-weight: 600;
+     
+    }
+
+    nav ul li a:hover{
+            color: rgb(16, 90, 219);
+    }
+
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 30px;
+
+        margin: 0 auto;
+        width: 100%;
+        
+      
+        
+    }
+        .imagem{
+           
+          
+            width: 100%;
+            
+        }
+
+     
+        .informacao{
+            padding: 30px;
+           margin: 0 auto;
+            width: 100%;
+            height: 100%;
+
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+         
+            
+
+        }
+
+        .informacao h2{
+            color: rgb(16, 90, 219);
+            text-transform: uppercase;
+            font-size: 6rem;
+            padding-bottom: 5px;
+           
+           
+            
+            
+            
+        }
+
+        .informacao h1{
+            color: rgb(26, 47, 85);
+            background-image: linear-gradient(to  right, rgb(0, 89, 255), transparent  );
+            text-transform: uppercase;
+            font-size: 3rem;
+            
+             padding: 0 10px;
+           
+            
+            
+        }
+
+        .informacao p{
+            color: rgb(66, 79, 110);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding: 15px 20px;
+            
+    
+            
+            
+            
+        }
+
+        .informacao .button{
+            display: flex;
+            align-items: center;
+            margin: 0 auto;
+            padding-bottom: 40px;
+            gap: 40px;
+        }
+
+        .informacao .button  a{
+          
+           
+            border: none;
+            border-radius: 25px;
+            background-color: rgb(56, 101, 227);
+            color: white; 
+            margin-bottom: 50px;
+            text-align: center;  
+            padding: 10px 50px;
+            text-transform: uppercase;
+            font-weight: 550;
+            font-size: 19px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+           
+            
+            
+        }
+
+        .informacao .button a:hover{
+          
+        background-color: rgb(196, 47, 47);
+        
+          
+          
+      }
+</style>
+<body>
+    <div class="conteudo">
+        <header>
+            <div class="logo"><img src="icons8-liga-de-foguetes-50.png" alt="rtl"></div>
+            <nav>
+                <ul>
+                    <li><a href="https://www.rocketleague.com/pt-br/news/">Novidades</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=S71ZDhYsNuY">Evolua no Game</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=0cy2bAkq3lk">Gamaplays</a></li>
+
+                </ul>
+            </nav>
+
+            
+        </header>
+
+        <div class="container">
+           
+             
+                    <div class="informacao">
+                        <h1>ROCKET LEAGUE</h1>
+                                        <h2>Octane</h2>
+                                        <p>O Octane é o carro padrão com o qual os jogadores começam quando começam a jogar Rocket League. Sem surpresa, ele usa o Octane Hitbox. O Octane se tornou um favorito entre os jogadores da Rocket League e muitas vezes tem sido o corpo preferido por jogadores profissionais em competições de e-sports.</p>
+                                        <div class="button"><a href="https://store.epicgames.com/pt-BR/p/rocket-league">download</a> <a href="https://www.rocketleague.com/pt-br/">Saiba mais</a> </div>
+                    </div>
+                       
+          
+    
+        <div class="imagem">
+            <img src="Branco_e_Quadrado_Preto_Imobiliária_Logotipo-removebg-preview.png" alt="rtl">
+        </div>
+    
+    </div>
+        
+    </div>
+
+        
+
+
+    <script> var jogos = ["Cod_warzone" , "Rocket_league", "Forza_horizon"];
+    alert(jogos[1])
+     //top funciona!
+    </script>
+</body>
+</html>
