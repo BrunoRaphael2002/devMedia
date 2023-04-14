@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G15</title>
+</head>
+<style>
+  
+  @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@600&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    ul{
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    :root{
+        --font-padrao:  'IBM Plex Sans Condensed', sans-serif;
+        --font-teste: 'Comic Neue', cursive;
+        --font-destaque:  'Bebas Neue', cursive;
+    }
+    body{
+        background-image: url('../assets/img01.png');
+       background-size: cover;
+       overflow: hidden;
+       font-family: var(--font-padrao);
+       background-repeat: no-repeat;
+
+      
+    }
+
+    header{
+        display: flex;
+       align-items: center;
+       justify-content: center;
+       margin: 0 auto;
+       max-width: 1440px;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content:space-between ;
+        padding: 10px;
+        height: 100%;
+    }
+
+    header nav img{
+        width: 80px;
+        border-radius: 50%;
+    }
+
+    header nav ul  {
+            display: flex;
+            align-items: center;
+           justify-content: center;
+            padding: 20px;
+            gap: 20px;
+            
+    }
+
+    header nav ul li{
+    
+  font-family: var(--font-destaque);
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #ffffff;
+
+ 
+
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+ text-align: center;
+margin: 0 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+    }
+
+    header nav ul li:hover{
+       
+
+  color: #fff;
+  transform: translateY(-7px);
+     
+        
+    }
+
+        .box-informativo{
+            
+            margin:  20px 100px;
+            width: 400px;
+            height: 100%;
+            text-align: center;
+           
+            background-color: #b67831;
+            border: 2px solid #53320c;
+            border-radius: 25px ;
+            padding: 30px;
+            
+                
+        }
+
+        .box-informativo h1{
+            font-family: var(--font-destaque);
+           font-weight: 400;
+            font-size: 3rem;
+            color: white;
+            text-transform: uppercase;
+           
+        }
+        .box-informativo h2{
+            font-family: var(--font-destaque);
+            font-weight: bold;
+            font-size: 4rem;
+            color: white;
+            text-transform: uppercase;
+            font-weight: 550;
+           
+
+            
+        }
+
+            .box-informativo .texto-destaque{
+                background-color: rgb(138, 79, 39);
+                width: fit-content;
+                padding: 0 20px;
+                margin: 0 auto;
+               
+           
+
+            }
+          
+            .box-informativo .info{
+                color: #edcab4;
+                font-family: var(--font-teste);
+                margin: 30px ;
+               
+            
+            }
+
+          
+
+            .box-informativo  a{
+                text-transform: uppercase;
+                font-family: var(--font-teste);
+               color: white;
+                background-color: #24b87a;
+                padding: 10px 30px;
+                border: 2px solid #166c48;
+                font-size: 1.5rem;
+                
+
+
+            }
+
+            .box-informativo  a:hover{
+                background-color: #24b862;
+                
+            }
+            
+
+         
+
+           
+</style>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>HOME</li>
+                <li>ALBUM</li>
+
+            </ul>
+
+                <img src="assets/logo.png" alt="LOGO">
+
+            <ul>
+                <li>CONTATO</li>
+                <li>VAZIO</li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <div class="box-informativo">
+        <h1>Vamos Celebrar !</h1>
+        <h2>happy</h2>
+        <h2 class="texto-destaque">birthday!</h2>
+        <div class="info">
+            <h3>15 anos</h3>
+            <h3>14/04/2023 - 19:00PM</h3>
+        </div>
+       <a href="#">clique aqui</a>
+        
+    </div>
+</body>
+</html>
