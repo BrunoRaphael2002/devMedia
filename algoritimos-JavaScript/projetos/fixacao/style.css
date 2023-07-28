@@ -1,0 +1,29 @@
+*{
+   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:whitesmoke;
+   
+}
+
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+
+
+
+:root{
+    --selective-yellow: #fbc900;
+    --white: #ffffffff;
+    --black: #050401ff;
+    --red-pantone: #e71d36ff;    
+    --logo:'Courgette', cursive;
+
+}
+
