@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>teste</title>
+</head>
+<style>
+  img{
+    width: 100px;
+  }
+
+  h1{
+    color: red;
+  }
+
+  body{
+    background-color: rgb(108, 255, 2);
+  }
+</style>
+<body>
+  <h1>jogo de carro</h1>
+  <p>paragrafo</p>
+  <img src="assets/Dodge.jpeg" alt="">
+
+  <a href="https://www.devmedia.com.br/carreira-programador/?slug=front-end" target="_blank"> devmedia</a>
+
+  <script>
+function verifica_tamanho_senha(senha){
+
+let valida_tamanho;
+
+if( senha.length >= 10 ){
+    valida_tamanho = true;
+} else {
+    valida_tamanho = false;
+}
+
+}
+
+let senha_cadastro = "minha_senha";
+
+if( verifica_tamanho_senha(senha_cadastro) ){
+console.log("A senha possui o mínimo de 10 caracteres");
+} else {
+console.log("A senha não possui o mínimo de 10 caracteres");
+}
+  </script>
+</body>
+</html>
