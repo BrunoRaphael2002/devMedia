@@ -57,24 +57,111 @@ body{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin: 20px;
   }
 
 
   .Premio{
-   
-  
     display: flex;
     align-items: center;
     width: 400px;
+    height: 100px;
     background-color: #fff;
-    border: 1px solid #ccc;
-    margin: 10px;
+    margin: 10px auto;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 0.75rem;
+    gap: 10px;
   }
 
   .Premio img{
     max-width: 100px;
-    height: auto;
+    height: 100%;
     margin-right: 10px;
+    object-fit: cover;
+    border-bottom-left-radius: 0.75rem;
+    border-top-left-radius: 0.75rem;
   }
+
+  /*ganhador*/
+
+  .ganhador{
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px ;
+   
+  }
+
+  .box-ganhador{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    width: 400px ;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    gap: 20px;
+    border-radius: 0.75rem;
+
+   
+  }
+
+ 
+
+  .box-ganhador img{
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+    border-radius: 50%;
+    
+  }
+
+
+  /*informação*/
+
+.info{
+  background-color: #ccc;
+  margin: 20px auto;
+  width: 100%;
+
+}
+
+.todos-card{
+  max-width: 80rem;
+  display: flex;
+  margin: 0 auto;
+
+ 
+  
+
+}
+
+.box-info{
+
+  flex: 1 1 0%;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%;
+  padding: 20px;
+  margin: 10px;
+  
+}
+
+/*Rodapé*/
+
+footer{
+  width: 100%;
+  padding: 50px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+
 
