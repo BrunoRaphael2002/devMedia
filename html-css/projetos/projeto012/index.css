@@ -51,7 +51,14 @@ body{
   }
 
   /*fim topo*/
-    
+    .texto{
+      margin: 20px 40px;
+      color: white;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+
+    }
   .cards{
     display: flex;
     justify-content: center;
@@ -154,7 +161,7 @@ body{
 
 footer{
   width: 100%;
-  padding: 50px;
+  padding: 10px;
   color: white;
   display: flex;
   align-items: center;
