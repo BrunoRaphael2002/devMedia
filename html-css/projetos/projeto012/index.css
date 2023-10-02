@@ -25,7 +25,7 @@ body{
     font-weight: 600;
     font-size: 28px;
     color: #fff;
-    margin: 10px;
+    margin: 10px auto;
   }
 
  
@@ -40,7 +40,21 @@ body{
 
   .topo-links ul a li{
         padding: 10px;
+        margin: 0 auto;
   }
+
+
+
+
+/* Estilo para o logotipo */
+.link-logotipo h1 {
+  margin: 0;
+  font-size: 24px; /* Tamanho da fonte do logotipo */
+}
+
+.link-logotipo span {
+  color: #ff6600; /* Cor do destaque no logotipo */
+}
 
  
 
