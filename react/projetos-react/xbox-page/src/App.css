@@ -1,40 +1,82 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ul{
+  list-style: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a{
+  text-decoration: none;
+  color: black;
 }
 
-.App-header {
-/* background-color: #282c34;*/
-  background-color: #e5e7ec;
-  min-height: 100vh;
+/* reset */
+header{
+  background-color: rgb(52, 51, 51);
+  color: white;
+  
+}
+.link-topo{
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: rgb(0, 0, 0);
+  justify-content: space-between;
+  padding: 20px;
+  height: 100%;
+  
 }
 
-.App-link {
-  /*color: #61dafb;*/
-  color: #6170fb;
+.btn{
+  padding:0.5rem;
+  background-color: white;
+  border: 2px solid black;
+  border-radius:1rem ;
+  height: 100%;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold;
+
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn:hover{
+  background-color: rgb(255, 123, 0);
+  color: white;
+  
+}
+
+span{
+  color: rgb(255, 123, 0);
+  border: 1px solid white;
+  border-radius: 25px;
+}
+
+.links-nav{
+  display: flex;
+  gap: 40px;
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform:uppercase ;
+  cursor: pointer;
+}
+
+.react{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 100vh;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+a{
+  font-size: 40px;
+  color: rgb(0, 136, 255);
+  background-color: rgb(0, 0, 0);
+  padding: 20px;
+
+  border-radius: 25px;
 }
