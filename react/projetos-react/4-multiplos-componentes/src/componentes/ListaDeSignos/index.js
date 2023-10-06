@@ -1,7 +1,7 @@
 import React from "react";
-import ItemLista from "../ItemLista";
 import Titulo from "../Titulo";
 import './style.css';
+import ItemLista from "../ItemLista";
 
 export default function ListaDeSignos(){
     return(
