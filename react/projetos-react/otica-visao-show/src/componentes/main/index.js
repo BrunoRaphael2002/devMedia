@@ -1,14 +1,17 @@
 import React from "react";
-import './index.css';
+import Banner from "./banner/";
+import Produtos from "./produtos";
+import Sobre from "./sobre";
+import Contato from "./contato";
+
 
 export default function Main(){
     return(
         <main>
-            <section className="scn-1">
-                
-            </section>
-
-            <section className="scn-2"></section>
-                </main>
+           <Banner/>
+           <Produtos/>
+           <Contato/>
+           <Sobre/>
+        </main>
     );
 }

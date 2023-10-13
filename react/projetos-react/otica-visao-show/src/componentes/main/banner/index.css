@@ -1,0 +1,32 @@
+
+
+
+.banner{
+    background-image: url('/public/assets/imagens/capa.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+   /* border: 4px solid rgb(153, 51, 54);*/
+}
+
+.texto-banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+    height: 100%;
+    color: aliceblue;
+   /* border: 4px solid rebeccapurple;*/
+    margin: 0 30px;
+    padding: 0 20px;
+   
+   
+
+}
+
+section{
+    padding: 20px;
+    border: 4px solid rebeccapurple;
+}
