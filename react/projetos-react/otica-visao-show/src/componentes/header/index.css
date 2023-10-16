@@ -36,3 +36,23 @@ a{
     width: 150px;
     padding: 5px;
 }
+
+@media (max-width: 550px){
+    header nav{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+           
+
+       }
+       header > nav > ul{
+            border-top:1px solid gray ;
+            text-align: center;
+            margin: 20px;
+            padding: 10px; 
+        }
+        header > nav > .logo{
+            margin: 10px;
+        }
+ 
+}

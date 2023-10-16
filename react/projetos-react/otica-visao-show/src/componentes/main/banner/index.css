@@ -1,10 +1,10 @@
 
 .banner{
+    background: linear-gradient(47deg, #000113 0%, #04061D 80%, #04061D 100%);
     background-image: url('/public/assets/imagens/capa.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top center  ;
-   
+    background-position: center center  ;
     height: 80vh;
    
   
@@ -39,6 +39,25 @@
     line-height: 70px;
 }
 
+@media (max-width: 768px){
+    .banner h1{
+        font-size: 40px;
+        max-width: 350px;
+    }
 
+    .banner p{
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width: 550px){
+    .banner{
+        background-position:89% center ;
+    }
+    .banner div {
+        background-color: rgba(0,0,0,0.6);
+      }
+}
 
 

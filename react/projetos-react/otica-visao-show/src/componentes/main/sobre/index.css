@@ -48,3 +48,34 @@
 
 }
 
+@media (max-width: 768px){
+    .sobre{
+        padding: 60px 20px;
+    }
+    .sobre-info{
+        padding: 15px;
+    }
+    .sobre-info h2{
+        font-size: 22px;
+    }
+    .sobre-info p{
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width: 550px){
+    .sobre{
+        padding: 0 10px;
+    }
+    .box-sobre {
+        flex-direction: column;
+        align-items: center;
+        margin: 30px;
+    }
+    .box-sobre img , .sobre-info{
+        width: 100%;
+        height:300px ;
+    }
+}
+

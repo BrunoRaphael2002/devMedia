@@ -64,3 +64,34 @@
     text-align: left;
     margin: 5px;
 }
+
+@media (max-width: 768px){
+    .secao-produtos{
+      padding: 60px 20px;
+    }
+    .box-img h2{
+        font-size: 22px;
+    }
+    .box-img img{
+        max-height: 100px;
+    }
+
+    .box-img p{
+        font-size: 16px;
+    }
+
+ 
+}
+
+@media (max-width: 550px){
+    .secao-produtos{
+        padding: 0 10px;
+    }
+    .box-img img{
+        width: 100%;
+    }
+    .secao-lista ul{
+       
+      align-items: flex-start;
+    }
+}
