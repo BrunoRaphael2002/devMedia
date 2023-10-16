@@ -1,13 +1,14 @@
 header{
     background-color: rgb(242, 242, 242);
     height: 100%;
+    padding: 10px 15px;
+    width: 100%;
 }
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 30px;
-    padding: 5px;
+   
    
 }
  ul{
@@ -26,9 +27,12 @@ a{
     text-decoration: none;
     color: black;
     font-weight: 500;
+    font-size: 18px;
+    padding: 5px;
+    margin: 0 5px;
   }
 
 .logo{
-    width: 8rem;
+    width: 150px;
     padding: 5px;
 }

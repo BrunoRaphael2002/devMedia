@@ -1,0 +1,66 @@
+.secao-produtos{
+    width: 100%;
+    text-align: center;
+    padding: 100px 200px;
+    
+}
+
+.box-imgs{
+    margin: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.box-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f6f6f6;
+    width: calc(50% - 15px);
+    padding: 20px 10px;
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+
+.box-img h2{
+    margin: 0;
+    font-size: 32px;
+}
+
+.box-img img{
+    width: 80%;
+    height: 150px;
+    margin: 30px 0;
+    object-fit: contain;
+    
+}
+
+.box-img p{
+    margin: 0;
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+.secao-lista p{
+    margin: 10px;
+    font-weight: 600;
+
+}
+
+.secao-lista ul{
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style: disc;
+}
+
+.secao-lista li{
+    text-align: left;
+    margin: 5px;
+}

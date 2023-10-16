@@ -1,0 +1,50 @@
+.sobre{
+    width: 100%;
+    background-color: #f8f7ff;
+    padding: 100px 200px;
+    text-align: center;
+}
+
+.container-sobre p{
+    line-height: 32px;
+}
+
+.box-sobre{
+    margin-top:  50px ;
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+.box-sobre img, .sobre-info{
+    width: 50%;
+    max-height: 300px;
+    border: 1px solid #a2adad;
+}
+
+.box-sobre img{
+    object-fit:cover ;
+}
+
+.sobre-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px 25px;
+}
+
+.sobre-info h2{
+    font-size: 36px;
+    font-family: 'anybody cursive';
+    text-transform: uppercase;
+    margin: 0 5px;
+    line-height: 42px;
+}
+
+.sobre-info p{
+    font-size: 22px;
+    color: #4a4a4a;
+
+}
+

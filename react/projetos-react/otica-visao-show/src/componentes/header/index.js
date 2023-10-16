@@ -3,8 +3,8 @@ import './index.css';
 
 export default function Header(){
     return(
-        <header>
-            <nav>
+        <header >
+            <nav className="limitar-secao">
             <img className="logo" src="../assets/imagens/logo.png" alt="logo"/>              
                 <ul>
                     <li><a href="#PRODUTOS">PRODUTOS</a></li>

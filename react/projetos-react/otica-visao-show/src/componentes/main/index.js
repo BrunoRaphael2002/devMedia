@@ -7,11 +7,12 @@ import Contato from "./contato";
 
 export default function Main(){
     return(
-        <main>
+        <main >
            <Banner/>
            <Produtos/>
-           <Contato/>
            <Sobre/>
+           <Contato/>
+          
         </main>
     );
 }

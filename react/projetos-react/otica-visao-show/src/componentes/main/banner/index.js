@@ -5,14 +5,16 @@ export default function Banner(){
     return(
        <section className="banner">
             
-            <section className="texto-banner">
+            <div className="limitar-secao"  >
                 <p> Preços baixos em</p>
-                <h3>
+                <h1>
                     Óculos de grau e de sol
-                 </h3>
+                 </h1>
                 <p>Você só encontra aqui! </p>
-            </section>
+            </div>
           
        </section>
     );
 }
+
+//className='limitar-secao'

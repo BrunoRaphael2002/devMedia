@@ -2,6 +2,29 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  font-family:  'poppins ', sans-serif;
 }
+
+.limitar-secao{
+  max-width: 1024px;
+  margin: 0 auto;
+}
+h1{
+  font-size: 36px;
+  margin: 0;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+p{
+  margin: 5px;
+  line-height: 22px;
+}
+
+ h4{
+  padding: 10px;
+}
+
 
 

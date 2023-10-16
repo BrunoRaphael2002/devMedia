@@ -1,0 +1,38 @@
+.secao-contato{
+    width: 100%;
+    padding: 100px 20px;
+    text-align: center;
+    color: white;
+    background-color: #05031b;
+}
+
+.box-info{
+    display: flex;
+    justify-content: center;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+}
+
+.info div{
+    display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.info img {
+    width: 18px;
+}
+
+.info span {
+    font-size: 14px;
+    margin: 0 0 0 10px;
+}
+
+.info h4{
+    margin: 5px;
+}
