@@ -1,7 +1,9 @@
 import React from "react";
 
+
 export default function Sabores(){
     return(
-<div>   <h1>  Sabores  </h1>      </div>
+        <div>   <h1>  Sabores  </h1>
+          </div>
     );
 }

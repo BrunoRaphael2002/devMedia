@@ -1,11 +1,15 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Header from "./Header";
+import Main from "./Main";
+import Footer from "./Footer";
+
 
 export default function Home(){
     return(
-<div>  <h1>  Home  </h1> 
-       <Link to="/Sabores">Sabores</Link><br></br>
-        <Link to="/Sobre">Sobre</Link>    
+<div>  
+    <Header/>
+      <Main/> 
+     <Footer/>
  </div>
     );
 }
