@@ -1,0 +1,76 @@
+main {
+    display: flex;
+    flex-direction: column
+  }
+
+.banner-sobre{
+    background-image: url('/public/assets/banner-sobre.png');
+    background-color: rgb(249, 219, 121);
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+
+.titulo-sobre h1{
+  color: white;
+  font-size: 100px;
+  text-shadow: 3px 5px 2px #474747;
+}
+
+.sobre{
+  text-align: center;
+  height: 70vh;
+  padding: 20px;
+  margin: 40px auto;
+  line-height: 30px;
+
+}
+
+.sobre span {
+    color: black;
+}
+
+
+.sobre-image{
+    margin: 0;
+}
+.sobre-image div{
+   display: flex;
+
+  
+   
+}
+
+.sobre-image img {
+   width: 50%;
+   height: auto;
+   object-fit: cover;
+   
+}
+
+
+@media screen and (max-width: 768px) {
+    .titulo-sobre h1 {
+      font-size: 60px;
+    }
+  
+    .sobre div {
+      flex-direction: column;
+    }
+  
+    .sobre-image img {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 436px){
+    .titulo-sobre h1 {
+      font-size: 40px;
+    }
+  }
