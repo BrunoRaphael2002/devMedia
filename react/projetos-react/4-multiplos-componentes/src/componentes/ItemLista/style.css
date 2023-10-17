@@ -1,6 +1,6 @@
 .boxSigno {
-    background-color: #856957;
-    color: #fff;
+    background-color: #000000;
+    color: #ffffff;
     margin: 25px 10px 0;
     padding: 5px 0px;
     display: flex;
@@ -32,4 +32,8 @@
   }
   .periodoNascimento {
     font-size: 14px;
+  }
+
+  .imagemSigno:hover{
+    background-color: #fec806;
   }

@@ -11,52 +11,102 @@ export default function ListaDeSignos(){
 
       <div className="lista">
         <ItemLista
-          signo="Aquário" dataInicio="21/01"
-          dataFim="19/02" imagem="assets/aquario.jpg"/>
+          signo="Gênesis" dataInicio="Cap"
+          dataFim="50" imagem="assets/biblia.png"/>
 
-        <ItemLista
-          signo="Peixes" dataInicio="20/02"
-          dataFim="20/03" imagem="assets/peixes.jpg" />
+<ItemLista
+          signo="Êxodo" dataInicio="Cap"
+          dataFim="40" imagem="assets/biblia.png"/>
 
-        <ItemLista
-          signo="Áries" dataInicio="21/03"
-          dataFim="20/04" imagem="assets/aries.jpg" />
+<ItemLista
+          signo="Levítico" dataInicio="Cap"
+          dataFim="27" imagem="assets/biblia.png"/>
 
-        <ItemLista
-          signo="Touro" dataInicio="21/04"
-          dataFim="21/05" imagem="assets/touro.jpg" />
+<ItemLista
+          signo="Números" dataInicio="Cap"
+          dataFim="36" imagem="assets/biblia.png"/>
 
-        <ItemLista
-          signo="Gêmeos" dataInicio=" 22/05"
-          dataFim="21/06" imagem="assets/gemeos.jpg" />
+<ItemLista
+          signo="Deuteronômio" dataInicio="Cap"
+          dataFim="34" imagem="assets/biblia.png"/>
 
-        <ItemLista
-          signo="Câncer" dataInicio="21/06"
-          dataFim="23/07" imagem="assets/cancer.jpg" />
+<ItemLista
+          signo="Josué" dataInicio="Cap"
+          dataFim="24" imagem="assets/biblia.png"/>
 
-        <ItemLista
-          signo="Leão" dataInicio="24/07"
-          dataFim="23/08" imagem="assets/leao.jpg" />
+<ItemLista
+          signo="Juízes" dataInicio="Cap"
+          dataFim="21" imagem="assets/biblia.png"/>
 
-        <ItemLista
-          signo="Virgem" dataInicio="24/08"
-          dataFim="23/09" imagem="assets/virgem.jpg" />
+<ItemLista
+          signo="Rute" dataInicio="Cap"
+          dataFim="4" imagem="assets/biblia.png"/>
 
-        <ItemLista
-          signo="Libra" dataInicio="24/09"
-          dataFim="23/10" imagem="assets/libra.jpg" />
+<ItemLista
+          signo="1 Samuel" dataInicio="Cap"
+          dataFim="31" imagem="assets/biblia.png"/>
 
-        <ItemLista
-          signo="Escorpião" dataInicio="24/10"
-          dataFim="22/11" imagem="assets/escorpiao.jpg" />
+<ItemLista
+          signo="2 Samuel" dataInicio="Cap"
+          dataFim="24" imagem="assets/biblia.png"/>
 
-        <ItemLista
-          signo="Sagitário" dataInicio="23/11"
-          dataFim="21/12" imagem="assets/sagitario.jpg" />
+<ItemLista
+          signo="1 Reis" dataInicio="Cap"
+          dataFim="22" imagem="assets/biblia.png"/>
 
-        <ItemLista
-          signo="Capricórnio" dataInicio="22/12"
-          dataFim="20/01" imagem="assets/capricornio.jpg" />
+<ItemLista
+          signo="2 Reis" dataInicio="Cap"
+          dataFim="25" imagem="assets/biblia.png"/>
+
+<ItemLista
+          signo="1 Crônicas" dataInicio="Cap"
+          dataFim="29" imagem="assets/biblia.png"/>
+
+<ItemLista
+          signo="2 Crônicas" dataInicio="Cap"
+          dataFim="36" imagem="assets/biblia.png"/>
+
+<ItemLista
+          signo="Esdras" dataInicio="Cap"
+          dataFim="10" imagem="assets/biblia.png"/>
+
+<ItemLista
+          signo="Neemias" dataInicio="Cap"
+          dataFim="13" imagem="assets/biblia.png"/>
+
+<ItemLista
+          signo="Ester" dataInicio="Cap"
+          dataFim="10" imagem="assets/biblia.png"/>
+
+<ItemLista
+          signo="Jó" dataInicio="Cap"
+          dataFim="42" imagem="assets/biblia.png"/>
+
+
+<ItemLista 
+          signo="Salmos" dataInicio="Cap"
+          dataFim="150" imagem="assets/biblia.png"/>
+
+<ItemLista
+          signo="Provérbios" dataInicio="Cap"
+          dataFim="31" imagem="assets/biblia.png"/>
+
+<ItemLista
+          signo="Eclesiastes" dataInicio="Cap"
+          dataFim="12" imagem="assets/biblia.png"/>
+
+<ItemLista
+          signo="Cantares" dataInicio="Cap"
+          dataFim="8" imagem="assets/biblia.png"/>
+
+<ItemLista
+          signo="Isaías" dataInicio="Cap"
+          dataFim="66" imagem="assets/biblia.png"/>
+
+<ItemLista
+          signo="Jeremias" dataInicio="Cap"
+          dataFim="52" imagem="assets/biblia.png"/>
+
 
       </div>
     </div>
