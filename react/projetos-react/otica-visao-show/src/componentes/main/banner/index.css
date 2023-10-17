@@ -1,7 +1,7 @@
 
 .banner{
     background: linear-gradient(47deg, #000113 0%, #04061D 80%, #04061D 100%);
-    background-image: url('/public/assets/imagens/capa.jpg');
+    background-image: url('/public/assets/imagens/capa.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center  ;
