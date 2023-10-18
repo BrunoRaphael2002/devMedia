@@ -1,0 +1,97 @@
+.dark-mode{
+    background-color: var(--dark-color);
+    color: #ffffff;
+   
+}
+
+.dark-mode button{
+    color: white;
+}
+
+.ligth-mode{
+    background-color: var(--cor03);
+    color: #000000;
+}
+
+.ligth-mode > button{
+    color: #000000;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav img{
+   width: 6%;
+}
+
+.dark-light{
+  width: 7%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    gap: 5px;
+    font-weight: bolder;
+    cursor: pointer;
+    border: 1px solid black;
+    background-color:transparent;
+    color: black;
+}
+
+
+
+.dark-light img{
+    width: 20%;
+    
+}
+
+.sol{
+    color: #ffffff;
+}
+/* Conteudo principal*/
+main{
+    
+    width: 100%;
+}
+
+.banner{
+    background-image: url('/public/assets/banner-barbearia.jpg');
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+.texto{
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 20px;
+    
+
+}
+
+.texto span{
+    font-weight: bolder;
+    padding: 20px;
+    
+}
+
+.texto p {
+    width: 50%;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.texto .destaque{
+    margin: 20px;
+    color:  var(--cor01);
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+}
