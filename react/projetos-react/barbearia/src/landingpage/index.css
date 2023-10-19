@@ -6,6 +6,7 @@
 
 .dark-mode button{
     color: white;
+    border: 1px solid var(--cor01);
 }
 
 .ligth-mode{
@@ -15,6 +16,12 @@
 
 .ligth-mode > button{
     color: #000000;
+
+}
+
+.filter{ 
+    filter: contrast(80%) invert(100%);
+    
 }
 
 nav{
@@ -24,10 +31,10 @@ nav{
 }
 
 nav img{
-   width: 6%;
+   width: 8%;
 }
 
-.dark-light{
+.bnt{
   width: 7%;
     border-radius: 20px;
     display: flex;
@@ -44,7 +51,7 @@ nav img{
 
 
 
-.dark-light img{
+.bnt img{
     width: 20%;
     
 }

@@ -5,36 +5,66 @@ import './index.css';
 
 export default function LadingPage(){
         const  [ mudarcor, setMudaCor ] = useState('light-mode');
-            const [ mudaicone , setMudaIcone] = useState('../assets/moon.png');
-        function AlterarCor(){
+
+          const [ mudartexto, setMudarTexto] = useState('Dark');
+
+          const [mudaricone, setMudarIcone] =useState("../assets/moon.png");
+
+          const [filtroimg , setFiltroImg] = useState('filter');
+
+     
+
+    
+    
             
+        function AlterarTema(){
+            /* Este codigo diz ao computador que se mudar a cor for modo claro então execute o if e se não for execute o else logo essa condicional ela é modificada pelo botão no onClick do react */ 
+
            if(mudarcor === 'light-mode'){
-                setMudaCor('dark-mode');
-               
+                setMudaCor('dark-mode');  
+                setMudarIcone("../assets/sun.png");
+                setMudarTexto('light');
+                setFiltroImg('filter')
+                
            }
            else{
-                setMudaCor('light-mode');
-               
+                setMudaCor('light-mode'); 
+                setMudarIcone("../assets/moon.png"); 
+                setMudarTexto('Dark');
+                setFiltroImg('');
            }
+
+
+          /* Obs não é nescessario criar varios if e else para o codigo funcionar
+          
+          if(mudartexto === 'Dark'){
+            setMudarTexto('light');
+         }else{
+          setMudarTexto('Dark');
+         }
+
+
+         if(mudaricone ===  "../assets/moon.png"){
+          setMudarIcone("../assets/sun.png");
+        }else{
+          setMudarIcone("../assets/moon.png");
+       }*/
+         
         }
 
-        function AlterarIcone(){
-            if(mudaicone === '../assets/moon.png'){
-                setMudaIcone('../assets/sun.png')
-            }
-            else{
-                setMudaIcone('../assets/moon.png');
-            }
-        }
+  
+
+    
 
     return(
         <div className={mudarcor}>
       <header className='largura-maxima '>
         <nav>
-            <img src="../assets/barbearia-logo.png" alt="logo" />
-            <button onClick={AlterarCor} className='dark-mode  dark-light light-mode'>
-                <img src={AlterarIcone}/>
-                Dark</button>
+            <img className= {filtroimg} src="../assets/barbearia-logo.png" alt="logo" />
+            <button onClick={AlterarTema}  className='bnt'>
+                <img src={mudaricone} alt='icone'/>
+                {mudartexto} </button>
+                 
         </nav>
       </header>
 
