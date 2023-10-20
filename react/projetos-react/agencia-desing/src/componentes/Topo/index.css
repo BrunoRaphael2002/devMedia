@@ -1,0 +1,53 @@
+header{
+   
+    width: 100%;
+    border-bottom:1px solid rgb(208, 208, 208) ;
+}
+
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    width: 100%;
+   
+}
+
+nav img{
+    width: auto;
+    height: 20px;
+  }
+
+
+
+.Altera-cor{
+  
+   border-radius: 25px;
+   border: 1px solid;
+   display: flex;
+   align-items: flex-start;
+   padding: 10px;
+   background-color: transparent;
+   
+}
+
+.Altera-cor img{
+  height: 20px;
+  object-fit: cover;
+
+  
+  
+  
+}
+
+/* teste props*/
+
+.dark{
+  background-color: darkblue;
+}
+
+.light{
+  background-color: lightblue;
+}
