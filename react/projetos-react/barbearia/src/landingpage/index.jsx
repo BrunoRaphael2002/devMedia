@@ -12,6 +12,7 @@ export default function LadingPage(){
 
           const [filtroimg , setFiltroImg] = useState('filter');
 
+          const [link, setLink] = useState('link')
      
 
     
@@ -24,7 +25,8 @@ export default function LadingPage(){
                 setMudaCor('dark-mode');  
                 setMudarIcone("../assets/sun.png");
                 setMudarTexto('light');
-                setFiltroImg('filter')
+                setFiltroImg('filter');
+                setLink('link-dark');
                 
            }
            else{
@@ -32,6 +34,7 @@ export default function LadingPage(){
                 setMudarIcone("../assets/moon.png"); 
                 setMudarTexto('Dark');
                 setFiltroImg('');
+                setLink('link');
            }
 
 
@@ -85,7 +88,7 @@ export default function LadingPage(){
       </main>
 
       <footer >
-        <p>Todos os direitos reservados</p>
+        <p> Desenvolvido por <a className={link}  href="https://brunoraphael2002.github.io/Portifolio/Portifolio/index.html">Bruno Raphael Medieros da Silva</a></p>
       </footer>
         </div>
     );
