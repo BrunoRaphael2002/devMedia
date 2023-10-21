@@ -1,0 +1,27 @@
+footer{
+    text-align: center;
+    
+    
+  
+}
+
+footer p{
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.claro{
+        color: chartreuse;
+        font-weight: 600;
+        background-color: rgb(255, 126, 199);
+}
+
+.escuro{
+    color: rgb(115, 0, 255);
+        font-weight: 600;
+        background-color: chartreuse;
+        
+}

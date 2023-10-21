@@ -2,6 +2,7 @@ import Topo from './componentes/Topo';
 import React, {useState} from 'react'
 
 import './App.css';
+import Footer from './componentes/Rodape';
 
 function App() {
   const [changetheme,setChangeTheme] =useState(false);
@@ -16,8 +17,12 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div>
       <Topo mudartema={Changetheme}  darkMode={changetheme}/>
+      <main>
+        
+      </main>
+      <Footer TemaEscuro={changetheme} />
     </div>
   );
 }

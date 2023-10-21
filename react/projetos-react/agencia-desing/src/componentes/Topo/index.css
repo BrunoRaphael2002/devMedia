@@ -45,9 +45,9 @@ nav img{
 /* teste props*/
 
 .dark{
-  background-color: darkblue;
+  background-color: rgb(7, 7, 46);
 }
 
 .light{
-  background-color: lightblue;
+  background-color: rgb(7, 135, 255);
 }
