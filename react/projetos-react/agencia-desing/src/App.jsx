@@ -1,8 +1,12 @@
 import Topo from './componentes/Topo';
-import React, {useState} from 'react'
-
-import './App.css';
 import Footer from './componentes/Rodape';
+import Banner from './componentes/SessaoBanner';
+import Experiencia from './componentes/SessaoExperiencia';
+import Card from './componentes/Card'
+
+import React, {useState} from 'react';
+import './App.css';
+
 
 function App() {
   const [changetheme,setChangeTheme] =useState(false);
@@ -16,13 +20,14 @@ function App() {
     }
   }
 
+
   return (
     <div>
       <Topo mudartema={Changetheme}  darkMode={changetheme}/>
-      <main>
-        
-      </main>
-      <Footer TemaEscuro={changetheme} />
+      <Banner/>
+      <Experiencia/>
+      <Card/>
+      <Footer />
     </div>
   );
 }
