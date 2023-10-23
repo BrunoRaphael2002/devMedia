@@ -7,8 +7,7 @@ export default function Banner(){
                 <section className='Info-Banner'>
                     <p> BRANDING / UI / UX / TECNOLOGIA</p>
 
-                    <h2>Agência de Branding
-<span>e design digital</span></h2>
+                    <h2>Agência de Branding<span>e design digital</span></h2>
                 </section>
             </section>
         </div>

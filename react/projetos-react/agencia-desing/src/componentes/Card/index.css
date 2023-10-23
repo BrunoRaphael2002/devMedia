@@ -1,0 +1,27 @@
+.box-cards{
+   width: 20%;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+}
+  
+
+.Cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+   
+    
+}
+
+
+
+
+
+

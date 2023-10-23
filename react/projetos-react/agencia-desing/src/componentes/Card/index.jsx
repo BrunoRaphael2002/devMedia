@@ -1,15 +1,22 @@
 import React from 'react';
+import './index.css';
 
 export default function Card(props){
       
     return(
-        <>
-        <p>Data</p>
-        <h1>Titulo</h1>
-        <h2>Empresa</h2>
-        <p>paragrafo</p>
-        <p>usando props  estrutura finalizada</p>
-
+       <>
+       <section className='box-cards'>
+        
+            
+                <p>{props.Data}</p>
+                <h1>{props.Titulo}</h1>
+                <h2>{props.Empresa}</h2>
+                <p>{props.paragrafo}</p>
+          
+        </section>
         </>
+       
+
+       
     );
 }
