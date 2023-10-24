@@ -32,14 +32,14 @@ export default function Topo (props){
 
 
             return(
-                    <div>
-                       <header className={props.darkMode ? 'dark' : 'light' }>
+                    <div className='test'>
+                       <header className={props.DarkTheme ? 'dark' : 'light' }>
 
          <nav className='limitar-sessao'>
 
          <img src="../assets/logo.png" alt="logo" />
 
-         <button onClick={props.mudartema}  className='Altera-cor'><img src="../assets/moon.png" alt="moon" /></button>
+         <button onClick={props.ChangeTheme}  className={props.DarkTheme ?"AlterarTema sun" : 'AlterarTema moon' } ><img src={props.DarkTheme ? '../assets/sun.png ' : '../assets/moon.png'} alt="moon" /></button>
 
          
 

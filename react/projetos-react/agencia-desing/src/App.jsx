@@ -11,7 +11,7 @@ import './App.css';
 function App() {
   const [changetheme,setChangeTheme] =useState(false);
 
-  function Changetheme(){
+  function OnClickChangetheme(){
     if(changetheme === false){
         setChangeTheme(true)
     }
@@ -23,10 +23,10 @@ function App() {
 
   return (
     <div>
-      <Topo mudartema={Changetheme}  darkMode={changetheme}/>
-      <Banner/>
-      <Experiencia/>
-      <Footer />
+      <Topo ChangeTheme={OnClickChangetheme}  DarkTheme={changetheme}/>
+      <Banner DarkTheme={changetheme}/>
+      <Experiencia SoftDark={changetheme}/>
+      <Footer DarkTheme={changetheme} />
     </div>
   );
 }

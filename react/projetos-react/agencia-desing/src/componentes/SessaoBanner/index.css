@@ -1,0 +1,63 @@
+
+.Banner{
+    
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    
+    
+ 
+}
+
+.Info-Banner{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--light);
+    height: 80vh;
+    width: 50%;
+    gap: 10px;
+    padding: 20px;
+    text-align: left;
+    color:  #1d1d1d;
+   
+
+}
+
+.Info-Banner h2{
+        width: 47%;
+        text-transform: uppercase;
+}
+
+.Info-Banner p{
+    font-size: 13px;
+}
+
+.dark{
+    background-color: var(--dark);
+    
+}
+
+.light{
+    background-color: var(--light);
+    
+}
+
+@media screen and (max-width: 768px) {
+    .Banner img {
+      width: 0;
+      display: none;
+      
+    }
+  
+    .Info-Banner {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+  }

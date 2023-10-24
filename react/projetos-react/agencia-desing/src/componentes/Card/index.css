@@ -1,24 +1,48 @@
-.box-cards{
-   width: 20%;
-    padding: 20px;
+#card-box {
+    width: 33%;
+    padding: 70px 30px;
     display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-wrap: wrap;
     flex-direction: column;
-    gap: 10px;
-}
+    cursor: pointer;
+    border: 1px solid #b4b4b4;
+    
+    
+  }
+  
+  #card-box:hover{
+    background-color: #feb633;
+    transition: all 1s;
+  }
   
 
-.Cards{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+  #card-box h4 {
+    font-size: 22px;
+    margin-bottom: 5px;
     
-    
+  }
+  
+  #card-box p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
    
-    
-}
+  }
+
+.Date {
+    margin-bottom: 5px;
+  }
+  
+  .ParagrafoEmpresa {
+    margin-bottom: 20px;
+  
+  }
+
+  @media screen and (max-width: 768px) {
+    #card-box {
+      width: auto;
+    }
+  }
 
 
 

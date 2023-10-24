@@ -5,13 +5,13 @@ export default function Card(props){
       
     return(
        <>
-       <section className='box-cards'>
+       <section id='card-box' >
         
             
-                <p>{props.Data}</p>
-                <h1>{props.Titulo}</h1>
-                <h2>{props.Empresa}</h2>
-                <p>{props.paragrafo}</p>
+                <p className='Date'>{props.Data}</p>
+                <h4>{props.Titulo}</h4>
+                <p className='paragrafo-Empresa'>{props.Empresa}</p>
+                <p >{props.paragrafo}</p>
           
         </section>
         </>

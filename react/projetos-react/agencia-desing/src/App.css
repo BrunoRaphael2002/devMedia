@@ -1,7 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Great+Vibes&family=Poppins:ital,wght@1,200;1,300&display=swap');
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+:root{
+  --light:#ffffff;
+  --dark:#18181a;
+  --softdark:#313131;
 }
 
 .limitar-sessao{

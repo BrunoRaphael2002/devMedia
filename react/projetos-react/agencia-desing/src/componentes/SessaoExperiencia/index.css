@@ -1,0 +1,70 @@
+.softdark{
+    background-color: var(--softdark);
+    color:white;
+   
+}
+
+
+.light{
+    background-color: var(--light);
+    
+}
+
+.xp{
+    
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px 20px;
+    gap: 20px;
+}
+
+
+
+.xp h2{
+    text-transform: uppercase;
+    position: relative;
+  font-size: 45px;
+  font-weight: 700;
+  padding-bottom: 20px;
+  margin-bottom: 35px;
+     
+}
+
+.xp h2::before{
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 100px;
+    height: 4px;
+    background-color: #feb633;
+}
+
+.xp p{
+    font-size: 16px;
+  font-weight: 400;
+  max-width: 770px;
+  margin-bottom: 70px;
+}
+
+.Cards{
+    display: flex;
+    justify-content: center;
+   padding-bottom: 30px;
+   
+}
+
+
+@media screen and (max-width: 768px) {
+    .Cards {
+      flex-direction: column;
+    }
+  }
+  
+
+

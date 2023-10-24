@@ -1,8 +1,23 @@
+.test{
+  border: 1px solid salmon;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
 header{
    
-    width: 100%;
-    border-bottom:1px solid rgb(208, 208, 208) ;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  
+  
 }
+
+
 
 
 
@@ -16,26 +31,24 @@ nav{
 }
 
 nav img{
-    width: auto;
-    height: 20px;
+  max-height: 35px;
   }
 
 
 
-.Altera-cor{
+.AlterarTema{
   
-   border-radius: 25px;
-   border: 1px solid;
-   display: flex;
-   align-items: flex-start;
-   padding: 10px;
-   background-color: transparent;
+  display: flex;
+  align-items: center;
+  padding: 10px 10px;
+  cursor: pointer;
+  border-radius: 25px;
    
 }
 
-.Altera-cor img{
-  height: 20px;
-  object-fit: cover;
+.AlterarTema img{
+  width: 25px;
+  height: 25px;
 
   
   
@@ -45,9 +58,17 @@ nav img{
 /* teste props*/
 
 .dark{
-  background-color: rgb(7, 7, 46);
+  background-color: var(--dark);
 }
 
 .light{
-  background-color: rgb(7, 135, 255);
+  background-color: var(--light);
+}
+
+.moon{
+  border: 1px solid #1d1d1d;
+}
+
+.sun{
+  border:1px solid #feb633 ;
 }
