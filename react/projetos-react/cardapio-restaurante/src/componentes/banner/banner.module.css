@@ -1,0 +1,10 @@
+.banner{
+
+   height: 100vh;
+   background-color: chartreuse;
+   background-image: url('../../../public/Assets/banner.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+}
+
