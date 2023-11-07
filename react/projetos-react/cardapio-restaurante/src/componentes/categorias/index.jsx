@@ -1,9 +1,11 @@
 import React from 'react'
 
-export default function index() {
+export default function Categorias() {
   return (
-    <div>index</div>
-  )
+    <>
+    <h2>categorias btn</h2>
+    </>
+  );
 }
 
 

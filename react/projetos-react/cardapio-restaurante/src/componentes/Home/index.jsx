@@ -12,8 +12,8 @@ export default function Home(){
         <>
     
     
-             <section className=  {styles.banner  } >
-                <div className='limitarSessao'>
+             <section className={styles.banner}>
+                <div className='limitarSessao div'>
                     <h1>Restaurante</h1>
                     <p>De pratos clássicos a criações surpreendentes, nosso cardápio é um requinte de sabores refinados</p>
                 </div>
